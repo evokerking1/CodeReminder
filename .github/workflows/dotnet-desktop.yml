@@ -92,5 +92,5 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: Built
+        name: Built version as an zip
         path: .\CodeReminder.zip
